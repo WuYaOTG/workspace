@@ -1245,7 +1245,7 @@ void search_near_cells(hls::stream<My_PointXYZI>& reference_input, hls::stream<M
                         }
 
                     }
-                    else/////////////////////
+                    else
                     {
                         int candidate_search_sub_voxel_index = sub_voxel_flag + loc_table[8*ii+loc];
                         if (valid_voxel_count_num < k_near_voxel_size - 1)
