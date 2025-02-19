@@ -1263,7 +1263,8 @@ void search_near_cells(hls::stream<My_PointXYZI>& reference_input, hls::stream<M
 
     }
 }
-/**/
+/*
+*/
 void search_candidate_neighbors(hls::stream<My_PointXYZI>& reference_input, hls::stream<My_PointXYZI>& reference_input1, hls::stream<int>& query_index3, hls::stream<int>& query_index4, hls::stream<int>& valid_near_voxels, hls::stream<int>& voxel_flag, hls::stream<int> candidate_neighbors[k_transform_neighbor_num], int* voxel_first_index_PL, int* sub_voxel_first_index_PL, int query_set_size)
 {
     for (int i = 0; i < query_set_size; i++)
