@@ -1,0 +1,88 @@
+<ENTRY>
+{
+ "thisFile": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/v++.package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat May 27 09:49:15 2023",
+ "timestampMillis": "1685152155987",
+ "buildStep": {
+  "cmdId": "2cb7c586-8711-491e-af79-2c614dcbf42f",
+  "name": "v++",
+  "logFile": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/_x/package/package.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" --package --package.sd_file /P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/../host/build/*.exe --package.out_dir=/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/package.out -t hw --config package.cfg ",
+  "args": [
+   "--package",
+   "--package.sd_file",
+   "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/../host/build/*.exe",
+   "--package.out_dir=/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/package.out",
+   "-t",
+   "hw",
+   "--config",
+   "package.cfg"
+  ],
+  "iniFiles": [
+   {
+    "path": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/package.cfg",
+    "content": "platform=xilinx_zcu102_base_202210_1\n# platform=xilinx_zcu104_base_202210_1\ntarget=hw\nsave-temps=1\n\n[package]\ndomain=xrt\nkernel_image=/home/sunhao/vitis_2022_1_SDK/xilinx-zynqmp-common-v2022.2/Image\nrootfs=/home/sunhao/vitis_2022_1_SDK/xilinx-zynqmp-common-v2022.1/rootfs.ext4\n# out_dir=./package.out\n# sd_file=/home/sunhao/LOAM_FPGA/loam_fpga_odom/data/flat_000001.txt\n# sd_file=/home/sunhao/LOAM_FPGA/loam_fpga_odom/data/less_flat_000000.txt\n# sd_file=/home/sunhao/LOAM_FPGA/loam_fpga_odom/data/less_sharp_000000.txt\n# sd_file=/home/sunhao/LOAM_FPGA/loam_fpga_odom/data/sharp_000001.txt\n"
+   }
+  ],
+  "cwd": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May 27 09:49:15 2023",
+ "timestampMillis": "1685152155987",
+ "status": {
+  "cmdId": "2cb7c586-8711-491e-af79-2c614dcbf42f",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May 27 09:49:18 2023",
+ "timestampMillis": "1685152158367",
+ "report": {
+  "path": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/_x/reports/package/v++_package_a_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May 27 09:49:18 2023",
+ "timestampMillis": "1685152158369",
+ "report": {
+  "path": "/P3PSSD/sunhao/LOAM_FPGA/hyh_fpga_map_knn/fpga_map_knn/package/_x/v++_package_a_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May 27 09:49:18 2023",
+ "timestampMillis": "1685152158370",
+ "status": {
+  "cmdId": "2cb7c586-8711-491e-af79-2c614dcbf42f",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>

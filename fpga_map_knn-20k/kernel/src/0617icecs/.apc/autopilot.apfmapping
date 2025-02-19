@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="knn_odom.cpp" path="/P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/knn_odom.cpp"/>
+    <originFiles name="knn_odom.h" path="/P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/knn_odom.h"/>
+    <originFiles name="knn_odom_hw.cpp" path="/P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/knn_odom_hw.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="main.cpp" path="/P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/main.cpp"/>
+    <originFiles name="timer.h" path="/P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/timer.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

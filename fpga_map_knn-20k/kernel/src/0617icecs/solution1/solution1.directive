@@ -1,0 +1,15 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+    <sourceFile name="">
+        <directive functionName="DSVS_search_hw" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="DSVS_search_hw"/>
+            </pragma>
+        </directive>
+        <directive functionName="DSVS_search_hw" label="" functionLabel="">
+            <pragma name="TOP">
+                <option name="name" value="DSVS_search_hw"/>
+            </pragma>
+        </directive>
+    </sourceFile>
+</AutoPilot:ProjectResources>
+

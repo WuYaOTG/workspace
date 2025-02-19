@@ -1,0 +1,20 @@
+---
+MainSourceFile:  /P3PSSD/sunhao/hyh/fpga_map_knn_f/fpga_map_knn/kernel/src/0617icecs/solution1/.autopilot/db/knn_odom.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '4025:9'
+    FilePath:        knn_odom.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '4025:9'
+    FilePath:        knn_odom.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-11] Since the only kind of statements allowed in a canonical dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region'
+    FileOffset:      '4025:9'
+    FilePath:        knn_odom.cpp
+  - DiagnosticName:  clang-diagnostic-warning
+    Message:         '[xlx-df-check-12] There are a total of 16 such instances of non-canonical statements in the dataflow region'
+    FileOffset:      '4025:9'
+    FilePath:        knn_odom.cpp
+...

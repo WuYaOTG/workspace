@@ -1,0 +1,74 @@
+*.txt
+*.jou
+*.log
+*.prj/
+*/*build*/
+/linux_build/
+linux_build/
+/src/DSVS/build/
+/src/build/
+/src/DSVS/linux_build/
+/src/DSVS/dsvs_prj/
+/VITAL_DATA/
+/.vscode/
+/cmake-build-debug/
+/.idea/
+makefile_time.txt
+hls_build.prj/
+csim_build.prj/
+store_*/
+FPGA_RESULT/
+results/
+test_all/
+verify_result/
+pynq/
+dataset_*.txt
+*.pdf
+
+# ignore vitis temp files
+*build*/
+.ipcache/
+.Xil/
+make_build/
+*.log
+package.*/
+*.xclbin*
+_x/
+reports/
+
+*.pcd
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+data/FPGA_ODOM_KNN_RESULT.txt

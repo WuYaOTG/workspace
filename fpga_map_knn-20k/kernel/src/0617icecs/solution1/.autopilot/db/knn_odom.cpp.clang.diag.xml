@@ -1,0 +1,23 @@
+<dict>
+  <key>main-file</key>
+  <string>knn_odom.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>warning</string>
+      <key>filename</key>
+      <string>knn_odom.cpp</string>
+      <key>line</key>
+      <integer>1395</integer>
+      <key>column</key>
+      <integer>19</integer>
+      <key>message</key>
+      <string>&apos;/*&apos; within block comment</string>
+      <key>ID</key>
+      <integer>997</integer>
+      <key>WarningOption</key>
+      <string>comment</string>
+    </dict>
+  </array>
+</dict>
